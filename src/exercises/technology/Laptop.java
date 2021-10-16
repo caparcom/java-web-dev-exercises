@@ -47,7 +47,7 @@ public class Laptop extends Computer{
 
 
     public String forGaming(){
-        if (this.memoryInGigs < 50){
+        if (memoryInGigs < 50){
             return "Hard no";
         } else {
             return "I mean, I would still get a PC but you can try.";
